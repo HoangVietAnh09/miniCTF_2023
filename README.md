@@ -39,7 +39,7 @@
   Đầu tiền vào file game.js trong source code. Chú ý quan sát một chút thì mình thấy có một đoạn được mã hóa MD5 là "327a6c4304ad5938eaf0efb6cc3e53dc". Mình thử giải mã thì được là "flag". Tiếp đến các bạn ínpect rồi vào vào thẻ console gõ lệnh 'fetch("327a6c4304ad5938eaf0ef")'. Sau đó sẽ có một file được , mở file và lấy flag thôi.
 #### - *Piece Of Cake 1*
   Bài này check , check hết các file là ra.
-#### - * Where are the Robots?*
+#### - *Where are the Robots?*
   Như gợi thì thì mình mình thử thảy đổi url bằng cách thêm "robots.txt" vào. rồi nó lại hiện thêm hint rồi lại thay đổi url theo hint là ra.
 #### - *Piece Of Cake 2*
   Check source thấy được part 1 rồ check tiếp các file thì thấy được part 2. part 3 có được bằng cách thay đổi đường dẫn bằng cách thêm "robots.txt". còn part 4 thì cần phải thêm "/.htaccess".
@@ -64,14 +64,29 @@
 ***
 |✨Forencis✨|Flag|              
 |:---|:---|
-|Redacted ||
+|Redacted |miniCTF{r3d4ct3d_m3ss4g3_15nt_h4rd_r1ght}|
 |Tired Cat ||
-|Comment ||
+|Comment |miniCTF{ch3ck_c0mm3nt}|
 |Notepad ||
 |Encyclopedia ||
 |Sharp eyed ||
 |What's wrong with the picture? ||
 |8 bit sound ||
+#### - *Redacted*
+  Bài này mình dùng pdftohtml trong linux. 
+  
+  ![image](https://github.com/HoangVietAnh09/miniCTF_2023/assets/111860567/e9ecf0ea-c64d-442c-91e3-c2da6d194ec7)
+#### - *Tired Cat*
+#### - *Comment*
+  Bài có hint là cmt nên mình nghĩ đến exiftool. Mình thử đùng và thấy flag.
+#### - *Notepad*
+#### - *Encyclopedia*
+#### - *Sharp eyed*
+#### - *What's wrong with the picture? *
+#### - *8 bit sound*
+
+
+
 ***
 |✨Re✨|Flag|              
 |:---|:---|
@@ -82,8 +97,8 @@
 ***
 |✨Crypto✨|Flag|              
 |:---|:---|
-|Caesar Cipher 2  ||
-|ROT||
+|Caesar Cipher 2 |miniCtF{C43sAR_C1F3R_But_MY_ALF4B3t}|
+|ROT|miniCTF{R0t10_r3p3aT_10_1im3s}|
 |Navy signal code ||
 |Char ||
 |Equations ||
@@ -91,5 +106,20 @@
 |7 Segment ||
 |No More Than 10 ||
 |Carry Number ||
+
+#### - *Caesar Cipher 2*
+  Dùng web: https://cryptii.com/pipes/caesar-cipher để decode.
+#### - *ROT*
+  Caesar bình thường thôi.
+#### - *Navy signal code*
+#### - *Char*
+  Xem ảnh và decode.
+#### - *Equations*
+#### - *Fake Flag*
+#### - *7 Segment*
+#### - *No More Than 10*
+#### - *Carry Number*
+
+
 ***
 

@@ -4,7 +4,7 @@
 |Challenges|Flag|                
 |:---|:---|
 |Base64 |miniCTF{b4s364_3ncrypt3d_by_ckjd0k}|
-|Filefolder||
+|Filefolder|miniCTF{f0ld3r_w4s_hjdd3n_6y_ckjd0k}|
 |INT|miniCTF{5urpr1se_y0u_4re_4maz1n9!!!}|
 |Welcome Web |miniCTF{Welcome_to_Web_challenge}|
 |Caesar Cipher |miniCTF{N0w_U_Kn0w_HoW_t0_3ncrYpt_Ur_M3s54g3}|

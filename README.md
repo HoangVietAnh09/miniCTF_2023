@@ -5,7 +5,7 @@
 |:---|:---|
 |Base64 |miniCTF{b4s364_3ncrypt3d_by_ckjd0k}|
 |Filefolder||
-|INT||
+|INT|miniCTF{5urpr1se_y0u_4re_4maz1n9!!!}|
 |Welcome Web |miniCTF{Welcome_to_Web_challenge}|
 |Caesar Cipher |miniCTF{N0w_U_Kn0w_HoW_t0_3ncrYpt_Ur_M3s54g3}|
 |Binary|miniCTF{congratulations}|
@@ -68,28 +68,38 @@
 |Challenges|Flag|              
 |:---|:---|
 |Redacted |miniCTF{r3d4ct3d_m3ss4g3_15nt_h4rd_r1ght}|
-|Tired Cat ||
+|Tired Cat |miniCTF{1m_s0_m0th3r-f^ck1n9_7ir3d_4ll_7im3}|
 |Comment |miniCTF{ch3ck_c0mm3nt}|
-|Notepad ||
-|Encyclopedia ||
-|Sharp eyed ||
-|What's wrong with the picture? ||
+|Notepad |miniCTF{f1nd_m3_1n_th3_ch405}|
+|Encyclopedia |miniCTF{Th3_W0rld_1s_so0o_B!9_}|
+|Sharp eyed |miniCTF{1_w3nt_crAaazy_ov3r_U}|
+|What's wrong with the picture? |miniCTF{nemu_nemu_nyanko}|
 |8 bit sound ||
 #### - *Redacted*
   Bài này mình dùng pdftohtml trong linux. 
   
   ![image](https://github.com/HoangVietAnh09/miniCTF_2023/assets/111860567/e9ecf0ea-c64d-442c-91e3-c2da6d194ec7)
 #### - *Tired Cat*
+  Đầu tiên mình thử tìm xem các thông tin trong file bằng exiftool nhưng không có gì. Rồi mình thử xem cái xâu trong ảnh thì thấy có một đường link lạ. Đây là web để extract các thông tin trong ảnh bằng cách thay đổi các bit. Và mình tìm được flag.
 #### - *Comment*
   Bài có hint là cmt nên mình nghĩ đến exiftool. Mình thử đùng và thấy flag.
 #### - *Notepad*
+  Mình thử dùng strings để xem các string có trong file.
 #### - *Encyclopedia*
+  Cái này search google thôi.
 #### - *Sharp eyed*
+  xem video và ghép các từ.
 #### - *What's wrong with the picture? *
+  Đây là file ảnh nhưng không sửa được nên mình nghĩ có thể bit nào đó bị sai nên mình check thử thì thấy có 2 bit bị lệch 
+
+  ![image](https://github.com/HoangVietAnh09/miniCTF_2023/assets/111860567/8840f323-b22c-49b9-af9f-caa63df3b5ad)
+
+  Sau đó thì mình google thì thấy được các bit đúng rồi mình xửa lại bằng hexedit
+
+  ![image](https://github.com/HoangVietAnh09/miniCTF_2023/assets/111860567/d402228f-99eb-40a8-925b-bd8f25e0a9ed)
+
 #### - *8 bit sound*
-
-
-
+  Dùng audicaty để thấy được phổ của đoạn âm thành ta sẽ thấy được flag.
 ***
 ## ✨Re✨
 |Challenges|Flag|              

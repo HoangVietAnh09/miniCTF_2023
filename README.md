@@ -1,6 +1,7 @@
 # Write_Up miniCTF 2023
 ***
-|✨Warm_up✨|Flag|                
+## ✨Warm_up✨
+|Challenges|Flag|                
 |:---|:---|
 |Base64 |miniCTF{b4s364_3ncrypt3d_by_ckjd0k}|
 |Filefolder||
@@ -24,7 +25,8 @@
   
   
 ***
-|✨Web✨|Flag|              
+## ✨Web✨
+|Challenges|Flag|              
 |:---|:---|
 |Epmuoihai |miniCTF{EHE_TE_NANDAYO_?}|
 |Flappy Flag |miniCTF{1f_u_4r3_4_pr0_pl4y3r_u_c4n_get_th1s_by_IDOR}|
@@ -48,7 +50,8 @@
 
   
 ***
-|✨Misc✨|Flag|
+## ✨Misc✨
+|challenges|Flag|
 |:---|:---|
 |Ping|miniCTF{64.227.14.145}|
 |Return Space Tab |miniCTF{111491<3_lanGuaG3!!!} |
@@ -60,9 +63,9 @@
   Bài này decode dựa trên khoảng trắng. Mình tim web nào đấy decode online là xong.
 #### - *NASA*
   Tìm ở trang này web.archive.org.
-
 ***
-|✨Forencis✨|Flag|              
+## ✨Forencis✨
+|Challenges|Flag|              
 |:---|:---|
 |Redacted |miniCTF{r3d4ct3d_m3ss4g3_15nt_h4rd_r1ght}|
 |Tired Cat ||
@@ -88,38 +91,59 @@
 
 
 ***
-|✨Re✨|Flag|              
+## ✨Re✨
+|Challenges|Flag|              
 |:---|:---|
-|Sort ||
-|Header File ||
-|XOR ||
-|String ||
+|Sort |miniCTF{R3_i5_v3ry_e4sy_h3h3h3_g00d_luck}|
+|Header File |miniCTF{N0w_U_Kn0w_H0w_T0_Wr1t3_Ur_0wn_L1Br4ry}|
+|XOR |miniCTF{4re_y0u_re4dy_t0_r3v3rs3_?}|
+|String |miniCTF{c0nqr4tul4tj0ns_0n_kn0wjnq_h0w_t0_0p3n_tk3_d00r}|
+
+#### - *Sort*
+  Như tên bài sort lại thôi.
+#### - *Header File *
+  Bài này downfile về rồi run thôi.
+#### - *XOR*
+  Mình reverse lại thôi.
+#### - *String*
+  Câu này thì mình phải dùng đến linux. Thay đổi quền truye cập file bằng lệnh chmod rồi chạy file ta sẽ được flag.
+  
+  ![image](https://github.com/HoangVietAnh09/miniCTF_2023/assets/111860567/a64ae07e-41a1-4038-ad43-716d70992652)
+
 ***
-|✨Crypto✨|Flag|              
+## ✨Crypto✨
+|Challenges|Flag|              
 |:---|:---|
 |Caesar Cipher 2 |miniCtF{C43sAR_C1F3R_But_MY_ALF4B3t}|
 |ROT|miniCTF{R0t10_r3p3aT_10_1im3s}|
-|Navy signal code ||
-|Char ||
-|Equations ||
-|Fake Flag ||
-|7 Segment ||
-|No More Than 10 ||
-|Carry Number ||
+|Navy signal code |miniCTF{Y0U_KN0W_N4VY_C0D3}|
+|Char |miniCTF{I_kn0w_u_kn0w_4sc11_t4b1e}|
+|Equations |miniCTF{tk3_s3cr3t_numb3r_js_911429}|
+|Fake Flag |miniCTF{tH3_S3cr3t_hA$_8n_S0lv3d}|
+|7 Segment |miniCTF{7-segment_display_is_fun}|
+|No More Than 10 |miniCTF{C4n_Y0u_Wr1t3_My_C0rr3ct_M3ss493?}|
+|Carry Number |miniCTF{B1n4ry_4ga1n_R19ht?}|
 
 #### - *Caesar Cipher 2*
   Dùng web: https://cryptii.com/pipes/caesar-cipher để decode.
 #### - *ROT*
   Caesar bình thường thôi.
 #### - *Navy signal code*
+  Lên google search Navy signal decode rồi decode thôi.
 #### - *Char*
   Xem ảnh và decode.
 #### - *Equations*
+  Bài này lấy máy tính ra bấm giải hệ phương trình bậc 3 thôi.
 #### - *Fake Flag*
+  Dựa vào fake flag mà đề cho thì mình tìm được real secret là kí tự ":". Sau khi đã có real secret thì mình dùng thêm fake flag để tìm ra flag như code.
 #### - *7 Segment*
+  Chuyển về một dòng rồi google search tool 7 segments thôi. Sau khi decode 7 segments thì flag sẽ ở dạng mã hex.
 #### - *No More Than 10*
+  Bài này thì đoán nghĩa thôi.
+  c -> m
+  E -> Y
+  h -> r
 #### - *Carry Number*
-
-
+  Theo gợi ý của đề bài thì bài này mình phải tìm nhớ của phép tính cộng hai số rồi chuyển thành một chuỗi nhị phân. Sau đó reverse lại chuỗi binary đó rồi decode thôi.
 ***
 
